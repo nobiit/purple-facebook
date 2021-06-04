@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -ex
+
 test -z "$srcdir" && srcdir=$(dirname "$0")
 test -z "$srcdir" && srcdir=.
 
